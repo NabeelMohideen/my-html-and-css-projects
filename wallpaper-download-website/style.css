@@ -1,0 +1,83 @@
+body {
+  margin-left: 50px;
+  margin-right: 50px; 
+}
+
+.latest-wallpaper {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.all-wallpaper-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.wallpaper-container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 260px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  border: 2px;
+  border-color: black;
+  border-style: solid;
+}
+
+
+.wallpaper-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 80%;
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+}
+
+.wallpaper-title {
+  text-align: center;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.resolution-text {
+  text-align: center;
+  font-size: small;
+  font-weight: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 5px;
+}
+
+.download-button {
+  border: none;
+  background-color: rgb(255, 11, 11);
+  color: white;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 8px;
+  transition: 0.15s;
+}
+
+.download-button:hover {
+  opacity: 70%;
+}
+
+.download-button-container {
+  text-align: center;
+}
